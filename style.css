@@ -1,0 +1,94 @@
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:600|Ubuntu:400,700&display=swap');
+body {
+  color: #2c786c;
+  font-family: 'Comfortaa';
+  background-color: #f8b400;
+}
+
+h1 {
+  font-family: 'Ubuntu';
+}
+h2 {
+  color: #2c786c;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.btn {
+  text-decoration: none;
+  color: #faf5e4;
+  background-color: #004445;
+  padding: 10px;
+  border-radius: 8px;
+}
+.btn:hover {
+  background-color: #2c786c;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+li a {
+  font-size: 54px;
+  color: #004445;
+}
+
+li a:hover {
+  color: #2c786c;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  border: 3px solid #2c786c;
+  width: 150px;
+}
+.container {
+  width: 65%;
+  margin: 0 auto;
+
+}
+.card {
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 10px;
+  margin: 15px;
+  padding: 60px;
+  background-color: #fdd878a1;
+}
+
+p {
+  margin:0, 50px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+  .card p {
+  padding:0, 10px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+  .card p {
+  margin:0;
+  }
+}
