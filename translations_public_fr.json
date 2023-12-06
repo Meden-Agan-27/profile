@@ -1,8 +1,9 @@
 {
-    "hello": "Hello",
-    "world": "World",
-    "coucou": {
-        "one": "YOU",
-        "other": "Me"
-    }
+  "hello": "Hello",
+  "world": "World",
+  "owl": "",
+  "coucou": {
+    "one": "YOU",
+    "other": "Me"
+  }
 }
