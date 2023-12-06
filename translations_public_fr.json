@@ -1,5 +1,8 @@
-{"hello": "Bonjour",
-"world": "les gens",
-"coucou":
-{"one":"toi", "two":"vous"}
+{
+    "hello": "Hello",
+    "world": "World",
+    "coucou": {
+        "one": "YOU",
+        "other": "Me"
+    }
 }
