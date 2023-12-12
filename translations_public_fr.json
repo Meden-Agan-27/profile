@@ -1,9 +1,7 @@
 {
-  "hello": "Hello",
-  "world": "World",
-  "genou": "owl",
-  "coucou": {
-    "one": "YOU",
-    "other": "Me"
+  "demo": { "hello": "Bonjour", "world": "le monde" },
+  "genou": {
+    "one": "genou",
+    "plural": "genoux"
   }
 }
